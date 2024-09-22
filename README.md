@@ -4,4 +4,4 @@
 ### 1. 前置
 2024/9/22 创建仓库
 ## 造梦GG：贡献者
-[sLMxf](https://luogu.com.cn/user/752953)
+[sLMxf](https://www.luogu.com.cn/user/752953)
