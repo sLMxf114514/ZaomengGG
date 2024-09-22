@@ -1,0 +1,23 @@
+image = pygame.image.load('C:\Users\Administrator\OneDrive\Desktop\李瑞涵初中综评资料文件夹\初一上学期\军训1.jpg')
+
+class Settings():
+	def __init__(self):
+		self.screen_width = 1100
+		self.screen_height = 580
+
+import pygame
+from settings import Settings
+
+pygame.init()
+ai_settings = Settings()
+screen = pygame.display.set_mode((ai_settings.screen_width,ai_settings.screen_height))
+screen.blit(image,image_rect)
+pygame.display.flip()
+
+import sys
+def check_event():
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            sys.exit()
+
+image_rect = image.get_rect()
